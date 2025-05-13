@@ -12,7 +12,7 @@ class DiskData:
             self.header = next(reader, None)
 
     def lookup(self, key):
-        # użyj opóźnienia ustawionego przy tworzeniu obiektu
+        #użyj opóźnienia ustawionego przy tworzeniu obiektu
         time.sleep(self.delay)
 
         with open(self.csv_file_path, mode="r", newline="") as f:

@@ -15,7 +15,7 @@ class LRUCache:
         lub None, jeśli klucza brak w pamięci podręcznej.
         """
         if key in self.cache:
-            # przeniesienie użytego elementu na koniec (jako najświeższy)
+            #przeniesienie użytego elementu na koniec (jako najświeższy)
             value = self.cache.pop(key)
             self.cache[key] = value
             return value
@@ -28,10 +28,10 @@ class LRUCache:
         Jeśli cache jest pełny, usuwany jest najdawniej używany element (LRU).
         """
         if key in self.cache:
-            # usuń stary wpis (będzie ponownie dodany jako najnowszy poniżej)
+            #usuń stary wpis (będzie ponownie dodany jako najnowszy poniżej)
             self.cache.pop(key)
         elif len(self.cache) >= self.capacity:
-            # usunięcie najrzadziej używanego (pierwszego) elementu
+            #usunięcie najrzadziej używanego (pierwszego) elementu
             self.cache.popitem(last=False)
         # dodanie nowego elementu jako najświeższego
         self.cache[key] = value

@@ -11,7 +11,7 @@ if __name__ == "__main__":
     os.makedirs("logs", exist_ok=True)
 
     data_path = Path("data") / "reference.csv"
-    # Jeśli plik nie istnieje, utwórz przykładowy dataset
+    #Jeśli plik nie istnieje, utwórz przykładowy dataset
     if not data_path.exists():
         with open(data_path, mode="w", newline="") as f:
             writer = csv.writer(f)
@@ -31,7 +31,7 @@ if __name__ == "__main__":
             for row in sample_data:
                 writer.writerow(row)
 
-    # Konfiguracja logowania do pliku
+    #Konfiguracja logowania do pliku
     logging.basicConfig(
         filename="logs/join_process.log",
         level=logging.INFO,
@@ -41,22 +41,22 @@ if __name__ == "__main__":
     )
     logging.info("Uruchomienie algorytmu CSDJ z pamięcią LRU")
 
-    # Inicjalizacja obiektów
+    #Inicjalizacja obiektów
     disk = DiskData(str(data_path), delay=0.05)  # 50 ms opóźnienia dysku
     cache = LRUCache(capacity=2)  # pojemność cache np. 5 rekordów
 
-    # Utworzenie kolejki i wątków
+    #Utworzenie kolejki i wątków
     stream_queue = __import__("queue").Queue()
     generator = StreamGenerator(
         output_queue=stream_queue, event_count=500, interval=0.05
     )
     joiner = StreamDiskJoiner(input_queue=stream_queue, cache=cache, disk=disk)
 
-    # Start wątków
+    #Start wątków
     generator.start()
     joiner.start()
 
-    # Oczekiwanie na zakończenie wątków
+    #Oczekiwanie na zakończenie wątków
     generator.join()
     joiner.join()
     logging.info("Zakończono działanie.")

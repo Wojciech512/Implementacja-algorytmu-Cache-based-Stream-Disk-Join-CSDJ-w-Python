@@ -38,23 +38,23 @@ class StreamDiskJoiner(threading.Thread):
         while True:
             item = self.input_queue.get()
             if item is None:
-                # None jako sygnał zakończenia
+                #None jako sygnał zakończenia
                 logging.info("Joiner: otrzymano sygnał zakończenia. Kończę działanie.")
                 if self.output_queue:
                     self.output_queue.put(None)
                 break
-            # Zakładamy, że item jest słownikiem zawierającym klucz 'id'
+            #Zakładamy, że item jest słownikiem zawierającym klucz 'id'
             key = item.get("id")
             if key is None:
                 # jeśli z jakiegoś powodu brak klucza, pomijamy
                 logging.warning("Joiner: element strumienia bez klucza 'id': %s", item)
                 continue
-            # sprawdzenie w cache
+            #sprawdzenie w cache
             result_record = self.cache.get(key)
             if result_record:
                 source = "cache"
             else:
-                # odczyt z 'dysku'
+                #odczyt z 'dysku'
                 result_record = self.disk.lookup(key)
                 source = "disk"
                 # wstaw do cache (nawet jeśli result_record jest None, zapisujemy None by nie ponawiać odczytu w krótkim czasie)

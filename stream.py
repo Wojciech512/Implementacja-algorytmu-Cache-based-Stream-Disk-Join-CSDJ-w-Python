@@ -27,9 +27,9 @@ class StreamGenerator(threading.Thread):
 
     def run(self):
         """Uruchamia generowanie strumienia w osobnym wątku."""
-        # Przykładowo generujemy zdarzenia z losowym kluczem i wartością
-        # Zakładamy, że klucze referencyjne to liczby całkowite np. 1-100
-        # aby zasymulować częste powtórzenia, generujemy więcej zdarzeń dla mniejszych kluczy (skewed distribution)
+        #Przykładowo generujemy zdarzenia z losowym kluczem i wartością
+        #Zakładamy, że klucze referencyjne to liczby całkowite np. 1-100
+        #aby zasymulować częste powtórzenia, generujemy więcej zdarzeń dla mniejszych kluczy (skewed distribution)
         while self.event_count is None or self.generated < self.event_count:
             # losowy klucz (np. 80% szans na zakres 1-10, 20% na zakres 11-20)
             if random.random() < self.skew:
