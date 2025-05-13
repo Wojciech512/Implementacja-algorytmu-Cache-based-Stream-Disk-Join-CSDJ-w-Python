@@ -10,7 +10,7 @@ class StreamGenerator(threading.Thread):
         output_queue: Queue,
         event_count: int = 100,
         interval: float = 0.1,
-        skew_prob: float = 0.8,
+        skew_prob: float = 0.5,
         name: str = "StreamGenerator",
     ):
         """

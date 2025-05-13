@@ -1,0 +1,1009 @@
+event_count=1000
+interval=0.01
+skew_probability=0.8
+capacity=10
+sample_data=10
+
+2025-05-13 21:21:37 [INFO] Uruchomienie algorytmu CSDJ z pami�ci� LRU
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 7, 'value': 0.9408317077225403} -> {'id': '7', 'value': 0.9408317077225403, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 10, 'value': 0.09625943366193845} -> {'id': '10', 'value': 0.09625943366193845, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 8, 'value': 0.9617915899926035} -> {'id': '8', 'value': 0.9617915899926035, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 5, 'value': 0.7258731756643964} -> {'id': '5', 'value': 0.7258731756643964, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 10, 'value': 0.342168709839373} -> {'id': '10', 'value': 0.342168709839373, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 5, 'value': 0.7453069286870362} -> {'id': '5', 'value': 0.7453069286870362, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 7, 'value': 0.5827569370510302} -> {'id': '7', 'value': 0.5827569370510302, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 1, 'value': 0.34436989881355085} -> {'id': '1', 'value': 0.34436989881355085, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 5, 'value': 0.41352137319329973} -> {'id': '5', 'value': 0.41352137319329973, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 7, 'value': 0.21090767284785839} -> {'id': '7', 'value': 0.21090767284785839, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 2, 'value': 0.5516500866692352} -> {'id': '2', 'value': 0.5516500866692352, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 4, 'value': 0.8879334769206535} -> {'id': '4', 'value': 0.8879334769206535, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 6, 'value': 0.1338652675923181} -> {'id': '6', 'value': 0.1338652675923181, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:37 [INFO] Join miss (disk): {'id': 12, 'value': 0.5844928810294926} -> BRAK DOPASOWANIA
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 7, 'value': 0.6871645120384374} -> {'id': '7', 'value': 0.6871645120384374, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 3, 'value': 0.1266753969078116} -> {'id': '3', 'value': 0.1266753969078116, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:37 [INFO] Join hit (disk): {'id': 9, 'value': 0.1614493075895529} -> {'id': '9', 'value': 0.1614493075895529, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 2, 'value': 0.1131004016468713} -> {'id': '2', 'value': 0.1131004016468713, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 7, 'value': 0.36192672609562715} -> {'id': '7', 'value': 0.36192672609562715, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:37 [INFO] Join miss (disk): {'id': 20, 'value': 0.37606963251783543} -> BRAK DOPASOWANIA
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 9, 'value': 0.5571525520670347} -> {'id': '9', 'value': 0.5571525520670347, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 5, 'value': 0.7059327611500273} -> {'id': '5', 'value': 0.7059327611500273, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 4, 'value': 0.7068083871300701} -> {'id': '4', 'value': 0.7068083871300701, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:37 [INFO] Join hit (cache): {'id': 1, 'value': 0.36679545242343725} -> {'id': '1', 'value': 0.36679545242343725, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:37 [INFO] Join miss (disk): {'id': 15, 'value': 0.557344117469465} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 18, 'value': 0.39255529310829207} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 1, 'value': 0.15358229527965683} -> {'id': '1', 'value': 0.15358229527965683, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 1, 'value': 0.9395524026232926} -> {'id': '1', 'value': 0.9395524026232926, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 9, 'value': 0.4262148472322359} -> {'id': '9', 'value': 0.4262148472322359, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 4, 'value': 0.600792230699961} -> {'id': '4', 'value': 0.600792230699961, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 13, 'value': 0.08221027203028253} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 1, 'value': 0.4319724207669413} -> {'id': '1', 'value': 0.4319724207669413, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 5, 'value': 0.4404007384907801} -> {'id': '5', 'value': 0.4404007384907801, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 8, 'value': 0.4684681310640777} -> {'id': '8', 'value': 0.4684681310640777, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 10, 'value': 0.7593885175361427} -> {'id': '10', 'value': 0.7593885175361427, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 14, 'value': 0.3763705770107091} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 10, 'value': 0.8408953032241646} -> {'id': '10', 'value': 0.8408953032241646, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 4, 'value': 0.23869104512546857} -> {'id': '4', 'value': 0.23869104512546857, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 18, 'value': 0.9927027371052218} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 6, 'value': 0.0031736760459821767} -> {'id': '6', 'value': 0.0031736760459821767, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 17, 'value': 0.8626886290474599} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 2, 'value': 0.13846019323094172} -> {'id': '2', 'value': 0.13846019323094172, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 3, 'value': 0.47665733491851414} -> {'id': '3', 'value': 0.47665733491851414, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 2, 'value': 0.2496611400554124} -> {'id': '2', 'value': 0.2496611400554124, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 3, 'value': 0.7585767293056322} -> {'id': '3', 'value': 0.7585767293056322, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 6, 'value': 0.7553936475344081} -> {'id': '6', 'value': 0.7553936475344081, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 8, 'value': 0.18760956503325732} -> {'id': '8', 'value': 0.18760956503325732, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 1, 'value': 0.611278718853633} -> {'id': '1', 'value': 0.611278718853633, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 18, 'value': 0.8690128898344696} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 8, 'value': 0.4007964287943493} -> {'id': '8', 'value': 0.4007964287943493, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 1, 'value': 0.3817313998075129} -> {'id': '1', 'value': 0.3817313998075129, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 9, 'value': 0.5437079011309254} -> {'id': '9', 'value': 0.5437079011309254, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 14, 'value': 0.26074855507320693} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 7, 'value': 0.8058471688169218} -> {'id': '7', 'value': 0.8058471688169218, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 5, 'value': 0.2892364107768751} -> {'id': '5', 'value': 0.2892364107768751, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 3, 'value': 0.7490963325118865} -> {'id': '3', 'value': 0.7490963325118865, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 1, 'value': 0.4791259169834938} -> {'id': '1', 'value': 0.4791259169834938, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 8, 'value': 0.24006853269503714} -> {'id': '8', 'value': 0.24006853269503714, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 7, 'value': 0.9775283634629559} -> {'id': '7', 'value': 0.9775283634629559, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:38 [INFO] Join miss (disk): {'id': 12, 'value': 0.49185348398162465} -> BRAK DOPASOWANIA
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 10, 'value': 0.04853517653466133} -> {'id': '10', 'value': 0.04853517653466133, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:38 [INFO] Join hit (cache): {'id': 7, 'value': 0.0010916743516358185} -> {'id': '7', 'value': 0.0010916743516358185, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:38 [INFO] Join hit (disk): {'id': 2, 'value': 0.9415836921751807} -> {'id': '2', 'value': 0.9415836921751807, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 6, 'value': 0.6978652837011456} -> {'id': '6', 'value': 0.6978652837011456, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 1, 'value': 0.9801939631970827} -> {'id': '1', 'value': 0.9801939631970827, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 2, 'value': 0.48690890620257987} -> {'id': '2', 'value': 0.48690890620257987, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 8, 'value': 0.7212336114432591} -> {'id': '8', 'value': 0.7212336114432591, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 7, 'value': 0.18829306700979143} -> {'id': '7', 'value': 0.18829306700979143, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 9, 'value': 0.6477236688163613} -> {'id': '9', 'value': 0.6477236688163613, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 4, 'value': 0.9018410388771888} -> {'id': '4', 'value': 0.9018410388771888, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 14, 'value': 0.11376817808613504} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 20, 'value': 0.29476481293736734} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 9, 'value': 0.5570497255532062} -> {'id': '9', 'value': 0.5570497255532062, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 18, 'value': 0.3619595726567456} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 4, 'value': 0.27411242935198765} -> {'id': '4', 'value': 0.27411242935198765, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 2, 'value': 0.4341305162994785} -> {'id': '2', 'value': 0.4341305162994785, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 2, 'value': 0.0013265090874087226} -> {'id': '2', 'value': 0.0013265090874087226, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 12, 'value': 0.08339618343395672} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 5, 'value': 0.9492123670281745} -> {'id': '5', 'value': 0.9492123670281745, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 3, 'value': 0.7220433539972148} -> {'id': '3', 'value': 0.7220433539972148, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 7, 'value': 0.22096375900025078} -> {'id': '7', 'value': 0.22096375900025078, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 7, 'value': 0.7888021935942903} -> {'id': '7', 'value': 0.7888021935942903, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 6, 'value': 0.016975112753850996} -> {'id': '6', 'value': 0.016975112753850996, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 6, 'value': 0.8262099770637765} -> {'id': '6', 'value': 0.8262099770637765, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 6, 'value': 0.341155713613437} -> {'id': '6', 'value': 0.341155713613437, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 1, 'value': 0.06045755840444911} -> {'id': '1', 'value': 0.06045755840444911, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 12, 'value': 0.6541254576462906} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 8, 'value': 0.8997987314506225} -> {'id': '8', 'value': 0.8997987314506225, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.0563427698462593} -> {'id': '5', 'value': 0.0563427698462593, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.853281257089653} -> {'id': '5', 'value': 0.853281257089653, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.7726189472152136} -> {'id': '5', 'value': 0.7726189472152136, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.040715372626854096} -> {'id': '5', 'value': 0.040715372626854096, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.2607198525016453} -> {'id': '5', 'value': 0.2607198525016453, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 20, 'value': 0.6671552765670827} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 10, 'value': 0.9087241924597087} -> {'id': '10', 'value': 0.9087241924597087, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 9, 'value': 0.5751120006987923} -> {'id': '9', 'value': 0.5751120006987923, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 8, 'value': 0.4751147440212601} -> {'id': '8', 'value': 0.4751147440212601, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 2, 'value': 0.5831639684963047} -> {'id': '2', 'value': 0.5831639684963047, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.7323412638711602} -> {'id': '5', 'value': 0.7323412638711602, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 11, 'value': 0.15502138647120167} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 9, 'value': 0.13665435513200985} -> {'id': '9', 'value': 0.13665435513200985, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 8, 'value': 0.4887106414128518} -> {'id': '8', 'value': 0.4887106414128518, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 9, 'value': 0.9318966857114362} -> {'id': '9', 'value': 0.9318966857114362, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:39 [INFO] Join hit (disk): {'id': 3, 'value': 0.5922875886905092} -> {'id': '3', 'value': 0.5922875886905092, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 5, 'value': 0.6481978166391412} -> {'id': '5', 'value': 0.6481978166391412, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:39 [INFO] Join miss (disk): {'id': 13, 'value': 0.20984932273367285} -> BRAK DOPASOWANIA
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 2, 'value': 0.8260866505744389} -> {'id': '2', 'value': 0.8260866505744389, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:39 [INFO] Join hit (cache): {'id': 3, 'value': 0.6708430852725773} -> {'id': '3', 'value': 0.6708430852725773, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 1, 'value': 0.6961962759400269} -> {'id': '1', 'value': 0.6961962759400269, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 12, 'value': 0.2661138034344275} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 14, 'value': 0.4833495624446458} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 2, 'value': 0.621880606709242} -> {'id': '2', 'value': 0.621880606709242, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 7, 'value': 0.6135033416501443} -> {'id': '7', 'value': 0.6135033416501443, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 5, 'value': 0.47855804359870835} -> {'id': '5', 'value': 0.47855804359870835, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 1, 'value': 0.48917767034075044} -> {'id': '1', 'value': 0.48917767034075044, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 4, 'value': 0.39712998934243715} -> {'id': '4', 'value': 0.39712998934243715, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 1, 'value': 0.6300537067030898} -> {'id': '1', 'value': 0.6300537067030898, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.6654676415168231} -> {'id': '3', 'value': 0.6654676415168231, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 10, 'value': 0.28772363560147796} -> {'id': '10', 'value': 0.28772363560147796, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 4, 'value': 0.40930801085948665} -> {'id': '4', 'value': 0.40930801085948665, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 4, 'value': 0.5210620647490801} -> {'id': '4', 'value': 0.5210620647490801, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 1, 'value': 0.28060013551416463} -> {'id': '1', 'value': 0.28060013551416463, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.8156888429495331} -> {'id': '3', 'value': 0.8156888429495331, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.4161804646470324} -> {'id': '10', 'value': 0.4161804646470324, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.5669481839139053} -> {'id': '3', 'value': 0.5669481839139053, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 8, 'value': 0.8094102018729209} -> {'id': '8', 'value': 0.8094102018729209, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.5803981981990796} -> {'id': '3', 'value': 0.5803981981990796, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 4, 'value': 0.32607713058608245} -> {'id': '4', 'value': 0.32607713058608245, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 18, 'value': 0.4430103084944256} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 8, 'value': 0.5548925039841962} -> {'id': '8', 'value': 0.5548925039841962, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 9, 'value': 0.5031438855396072} -> {'id': '9', 'value': 0.5031438855396072, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 8, 'value': 0.28124388749317397} -> {'id': '8', 'value': 0.28124388749317397, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 9, 'value': 0.7782707150590422} -> {'id': '9', 'value': 0.7782707150590422, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 2, 'value': 0.11395354955144399} -> {'id': '2', 'value': 0.11395354955144399, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.042514552269184325} -> {'id': '10', 'value': 0.042514552269184325, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.011200275496941914} -> {'id': '3', 'value': 0.011200275496941914, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 9, 'value': 0.026219890697690817} -> {'id': '9', 'value': 0.026219890697690817, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.46103992627618073} -> {'id': '7', 'value': 0.46103992627618073, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 5, 'value': 0.8332145999485039} -> {'id': '5', 'value': 0.8332145999485039, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.08765816130910742} -> {'id': '7', 'value': 0.08765816130910742, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.17362474724994825} -> {'id': '3', 'value': 0.17362474724994825, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 9, 'value': 0.9218523241375458} -> {'id': '9', 'value': 0.9218523241375458, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.4599986224058916} -> {'id': '7', 'value': 0.4599986224058916, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 2, 'value': 0.7633413140374048} -> {'id': '2', 'value': 0.7633413140374048, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.9329028135713272} -> {'id': '3', 'value': 0.9329028135713272, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 2, 'value': 0.46869738933301575} -> {'id': '2', 'value': 0.46869738933301575, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 6, 'value': 0.4605394378084703} -> {'id': '6', 'value': 0.4605394378084703, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 5, 'value': 0.3115652921055644} -> {'id': '5', 'value': 0.3115652921055644, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 2, 'value': 0.7461823085157899} -> {'id': '2', 'value': 0.7461823085157899, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 15, 'value': 0.9576490146408965} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 3, 'value': 0.3140733741849393} -> {'id': '3', 'value': 0.3140733741849393, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.80149960032399} -> {'id': '10', 'value': 0.80149960032399, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.8988061059670608} -> {'id': '7', 'value': 0.8988061059670608, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 12, 'value': 0.6351124661307964} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.7062749381429985} -> {'id': '10', 'value': 0.7062749381429985, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.6202769351808959} -> {'id': '7', 'value': 0.6202769351808959, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 6, 'value': 0.3017467779245583} -> {'id': '6', 'value': 0.3017467779245583, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.09009499739253157} -> {'id': '7', 'value': 0.09009499739253157, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 15, 'value': 0.7772298289139536} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 4, 'value': 0.5944810499221754} -> {'id': '4', 'value': 0.5944810499221754, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 14, 'value': 0.9201983797964276} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 5, 'value': 0.34252673511358755} -> {'id': '5', 'value': 0.34252673511358755, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 6, 'value': 0.5874307059515523} -> {'id': '6', 'value': 0.5874307059515523, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:40 [INFO] Join hit (disk): {'id': 8, 'value': 0.4976926201232883} -> {'id': '8', 'value': 0.4976926201232883, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 8, 'value': 0.2345924824680108} -> {'id': '8', 'value': 0.2345924824680108, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 6, 'value': 0.15306789617098437} -> {'id': '6', 'value': 0.15306789617098437, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.1815960260327989} -> {'id': '10', 'value': 0.1815960260327989, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.728708235897568} -> {'id': '10', 'value': 0.728708235897568, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 16, 'value': 0.4118259721189408} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 18, 'value': 0.9522292987081223} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 10, 'value': 0.6854496447462645} -> {'id': '10', 'value': 0.6854496447462645, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 7, 'value': 0.3180507921019462} -> {'id': '7', 'value': 0.3180507921019462, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:40 [INFO] Join miss (disk): {'id': 19, 'value': 0.4008656964044587} -> BRAK DOPASOWANIA
+2025-05-13 21:21:40 [INFO] Join hit (cache): {'id': 8, 'value': 0.2504108915628901} -> {'id': '8', 'value': 0.2504108915628901, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 9, 'value': 0.7407887873383265} -> {'id': '9', 'value': 0.7407887873383265, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.25661537964441605} -> {'id': '10', 'value': 0.25661537964441605, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 2, 'value': 0.3974689482281828} -> {'id': '2', 'value': 0.3974689482281828, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 6, 'value': 0.8415831414529263} -> {'id': '6', 'value': 0.8415831414529263, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.2824557930046485} -> {'id': '2', 'value': 0.2824557930046485, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 17, 'value': 0.30095428226451204} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.931320791403} -> {'id': '10', 'value': 0.931320791403, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.14395852794195185} -> {'id': '8', 'value': 0.14395852794195185, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.7611083327537856} -> {'id': '2', 'value': 0.7611083327537856, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 7, 'value': 0.9498710374858224} -> {'id': '7', 'value': 0.9498710374858224, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 19, 'value': 0.337591251614044} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.9792354624493939} -> {'id': '8', 'value': 0.9792354624493939, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.0513684183082167} -> {'id': '8', 'value': 0.0513684183082167, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 1, 'value': 0.1884486170905404} -> {'id': '1', 'value': 0.1884486170905404, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.49333043702873336} -> {'id': '8', 'value': 0.49333043702873336, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 15, 'value': 0.48973845781136915} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 3, 'value': 0.7547263474941664} -> {'id': '3', 'value': 0.7547263474941664, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 1, 'value': 0.40233779118421376} -> {'id': '1', 'value': 0.40233779118421376, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.11218140617172023} -> {'id': '10', 'value': 0.11218140617172023, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.7771048642009872} -> {'id': '2', 'value': 0.7771048642009872, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 4, 'value': 0.2672346087999873} -> {'id': '4', 'value': 0.2672346087999873, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.5165987219286483} -> {'id': '2', 'value': 0.5165987219286483, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.2609089794321451} -> {'id': '10', 'value': 0.2609089794321451, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 3, 'value': 0.5346789996987741} -> {'id': '3', 'value': 0.5346789996987741, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.49195706084742397} -> {'id': '2', 'value': 0.49195706084742397, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 2, 'value': 0.07147369536482728} -> {'id': '2', 'value': 0.07147369536482728, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 16, 'value': 0.8826949038551523} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 1, 'value': 0.9453288473391352} -> {'id': '1', 'value': 0.9453288473391352, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.4095625959641863} -> {'id': '10', 'value': 0.4095625959641863, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 7, 'value': 0.11485412425496944} -> {'id': '7', 'value': 0.11485412425496944, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 10, 'value': 0.42061023194452385} -> {'id': '10', 'value': 0.42061023194452385, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 15, 'value': 0.15787724977002082} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 6, 'value': 0.030114853247006468} -> {'id': '6', 'value': 0.030114853247006468, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 20, 'value': 0.01503813201915083} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 5, 'value': 0.33265718748794315} -> {'id': '5', 'value': 0.33265718748794315, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 16, 'value': 0.05960294794767451} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 6, 'value': 0.6021960996202871} -> {'id': '6', 'value': 0.6021960996202871, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 8, 'value': 0.5942714563065042} -> {'id': '8', 'value': 0.5942714563065042, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 4, 'value': 0.05502911435053337} -> {'id': '4', 'value': 0.05502911435053337, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 2, 'value': 0.5371268730828258} -> {'id': '2', 'value': 0.5371268730828258, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.904997867382436} -> {'id': '8', 'value': 0.904997867382436, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join hit (disk): {'id': 3, 'value': 0.8064033569925972} -> {'id': '3', 'value': 0.8064033569925972, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 4, 'value': 0.950612795761442} -> {'id': '4', 'value': 0.950612795761442, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 8, 'value': 0.4094910951462959} -> {'id': '8', 'value': 0.4094910951462959, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:41 [INFO] Join miss (disk): {'id': 18, 'value': 0.0790930623707754} -> BRAK DOPASOWANIA
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 5, 'value': 0.2916063635102285} -> {'id': '5', 'value': 0.2916063635102285, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 4, 'value': 0.06230687816262781} -> {'id': '4', 'value': 0.06230687816262781, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:41 [INFO] Join hit (cache): {'id': 4, 'value': 0.45512836434272097} -> {'id': '4', 'value': 0.45512836434272097, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 17, 'value': 0.9053186058793596} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 5, 'value': 0.866755537328157} -> {'id': '5', 'value': 0.866755537328157, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 4, 'value': 0.24211275466182314} -> {'id': '4', 'value': 0.24211275466182314, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 10, 'value': 0.7063368598829247} -> {'id': '10', 'value': 0.7063368598829247, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 7, 'value': 0.49846763284183804} -> {'id': '7', 'value': 0.49846763284183804, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 15, 'value': 0.06117731839292595} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 9, 'value': 0.772273403555869} -> {'id': '9', 'value': 0.772273403555869, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 8, 'value': 0.2899158458208061} -> {'id': '8', 'value': 0.2899158458208061, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 15, 'value': 0.9066700028187881} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 8, 'value': 0.7786603781443185} -> {'id': '8', 'value': 0.7786603781443185, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 10, 'value': 0.9758616194043708} -> {'id': '10', 'value': 0.9758616194043708, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 5, 'value': 0.9651687479605096} -> {'id': '5', 'value': 0.9651687479605096, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 5, 'value': 0.7620169266301701} -> {'id': '5', 'value': 0.7620169266301701, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 16, 'value': 0.20942086274137972} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 9, 'value': 0.22517443191765585} -> {'id': '9', 'value': 0.22517443191765585, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 8, 'value': 0.6697804946666096} -> {'id': '8', 'value': 0.6697804946666096, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 4, 'value': 0.875964533318393} -> {'id': '4', 'value': 0.875964533318393, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 18, 'value': 0.09263693576483223} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 14, 'value': 0.3537288242829624} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 17, 'value': 0.743154478060574} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 2, 'value': 0.9726667290208648} -> {'id': '2', 'value': 0.9726667290208648, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 8, 'value': 0.09349385524533849} -> {'id': '8', 'value': 0.09349385524533849, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 10, 'value': 0.44011128859269955} -> {'id': '10', 'value': 0.44011128859269955, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 4, 'value': 0.7801486588716373} -> {'id': '4', 'value': 0.7801486588716373, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 18, 'value': 0.11011283724567633} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 7, 'value': 0.8180678753543742} -> {'id': '7', 'value': 0.8180678753543742, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 11, 'value': 0.25337385380761435} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 13, 'value': 0.7428693899084526} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 10, 'value': 0.6765989154521552} -> {'id': '10', 'value': 0.6765989154521552, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 17, 'value': 0.1123756106625814} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 6, 'value': 0.005431669379451942} -> {'id': '6', 'value': 0.005431669379451942, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 7, 'value': 0.9753925309384504} -> {'id': '7', 'value': 0.9753925309384504, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 6, 'value': 0.9924274870736985} -> {'id': '6', 'value': 0.9924274870736985, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:42 [INFO] Join hit (cache): {'id': 10, 'value': 0.30303422911715383} -> {'id': '10', 'value': 0.30303422911715383, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:42 [INFO] Join miss (disk): {'id': 18, 'value': 0.7893488085718874} -> BRAK DOPASOWANIA
+2025-05-13 21:21:42 [INFO] Join hit (disk): {'id': 1, 'value': 0.6938294053820837} -> {'id': '1', 'value': 0.6938294053820837, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 3, 'value': 0.7920186642552072} -> {'id': '3', 'value': 0.7920186642552072, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 6, 'value': 0.34929749175209046} -> {'id': '6', 'value': 0.34929749175209046, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 2, 'value': 0.3062924261886263} -> {'id': '2', 'value': 0.3062924261886263, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 17, 'value': 0.5635201785729101} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 3, 'value': 0.2834863782423498} -> {'id': '3', 'value': 0.2834863782423498, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.943741987668062} -> {'id': '2', 'value': 0.943741987668062, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 11, 'value': 0.6532641226375739} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.5511608339563256} -> {'id': '2', 'value': 0.5511608339563256, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 1, 'value': 0.28269296696759627} -> {'id': '1', 'value': 0.28269296696759627, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 6, 'value': 0.42108025385998926} -> {'id': '6', 'value': 0.42108025385998926, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 9, 'value': 0.6126903696236927} -> {'id': '9', 'value': 0.6126903696236927, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 10, 'value': 0.703381025688439} -> {'id': '10', 'value': 0.703381025688439, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 8, 'value': 0.9968417867399982} -> {'id': '8', 'value': 0.9968417867399982, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 7, 'value': 0.05854981645755719} -> {'id': '7', 'value': 0.05854981645755719, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.8872942412159964} -> {'id': '2', 'value': 0.8872942412159964, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 7, 'value': 0.7816970497096424} -> {'id': '7', 'value': 0.7816970497096424, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 19, 'value': 0.7626128507779393} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 4, 'value': 0.3175905473798446} -> {'id': '4', 'value': 0.3175905473798446, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 8, 'value': 0.4553262330484159} -> {'id': '8', 'value': 0.4553262330484159, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 3, 'value': 0.5823592767230465} -> {'id': '3', 'value': 0.5823592767230465, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 1, 'value': 0.7043983289465835} -> {'id': '1', 'value': 0.7043983289465835, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.38189892230753897} -> {'id': '2', 'value': 0.38189892230753897, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 3, 'value': 0.8416517241377156} -> {'id': '3', 'value': 0.8416517241377156, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 4, 'value': 0.5067030445769644} -> {'id': '4', 'value': 0.5067030445769644, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 9, 'value': 0.30207325873047863} -> {'id': '9', 'value': 0.30207325873047863, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 10, 'value': 0.23595067590234797} -> {'id': '10', 'value': 0.23595067590234797, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.2903589459003002} -> {'id': '2', 'value': 0.2903589459003002, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 5, 'value': 0.10740994162238493} -> {'id': '5', 'value': 0.10740994162238493, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 11, 'value': 0.9398320181909205} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 10, 'value': 0.532597801240237} -> {'id': '10', 'value': 0.532597801240237, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 10, 'value': 0.17013368607508916} -> {'id': '10', 'value': 0.17013368607508916, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.12349407386796751} -> {'id': '2', 'value': 0.12349407386796751, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 6, 'value': 0.11287471690404605} -> {'id': '6', 'value': 0.11287471690404605, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 4, 'value': 0.12025513038811064} -> {'id': '4', 'value': 0.12025513038811064, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 18, 'value': 0.5294181575255227} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (disk): {'id': 7, 'value': 0.31451504669461383} -> {'id': '7', 'value': 0.31451504669461383, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 12, 'value': 0.48531630754955646} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.34945825501545025} -> {'id': '2', 'value': 0.34945825501545025, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 18, 'value': 0.8148623099755801} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 4, 'value': 0.5266106288999833} -> {'id': '4', 'value': 0.5266106288999833, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 4, 'value': 0.6188477444164034} -> {'id': '4', 'value': 0.6188477444164034, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.6108773412891065} -> {'id': '2', 'value': 0.6108773412891065, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 19, 'value': 0.9345517954884754} -> BRAK DOPASOWANIA
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 4, 'value': 0.778172342967998} -> {'id': '4', 'value': 0.778172342967998, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 6, 'value': 0.05422467452350066} -> {'id': '6', 'value': 0.05422467452350066, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 2, 'value': 0.08384603715053174} -> {'id': '2', 'value': 0.08384603715053174, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:43 [INFO] Join hit (cache): {'id': 7, 'value': 0.3220544332892331} -> {'id': '7', 'value': 0.3220544332892331, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:43 [INFO] Join miss (disk): {'id': 13, 'value': 0.45381235940540565} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 19, 'value': 0.3764216675637071} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 7, 'value': 0.41058634086728474} -> {'id': '7', 'value': 0.41058634086728474, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 7, 'value': 0.5602389297385193} -> {'id': '7', 'value': 0.5602389297385193, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 9, 'value': 0.18844094291446822} -> {'id': '9', 'value': 0.18844094291446822, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.2643875978394672} -> {'id': '10', 'value': 0.2643875978394672, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 2, 'value': 0.34258335946277996} -> {'id': '2', 'value': 0.34258335946277996, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 8, 'value': 0.6510516197827705} -> {'id': '8', 'value': 0.6510516197827705, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 6, 'value': 0.6466448815263148} -> {'id': '6', 'value': 0.6466448815263148, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 6, 'value': 0.0484099058757298} -> {'id': '6', 'value': 0.0484099058757298, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 1, 'value': 0.6034610375524926} -> {'id': '1', 'value': 0.6034610375524926, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 12, 'value': 0.4398057270915561} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 6, 'value': 0.7797607675423577} -> {'id': '6', 'value': 0.7797607675423577, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 5, 'value': 0.021692480368914024} -> {'id': '5', 'value': 0.021692480368914024, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 8, 'value': 0.8039241887307027} -> {'id': '8', 'value': 0.8039241887307027, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.6731156761734118} -> {'id': '10', 'value': 0.6731156761734118, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 14, 'value': 0.9165072586292888} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 4, 'value': 0.9533994278421233} -> {'id': '4', 'value': 0.9533994278421233, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 1, 'value': 0.06914497278193299} -> {'id': '1', 'value': 0.06914497278193299, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 13, 'value': 0.327772347326328} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.025266360923570486} -> {'id': '10', 'value': 0.025266360923570486, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 20, 'value': 0.25216281872318325} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 7, 'value': 0.9049199422475188} -> {'id': '7', 'value': 0.9049199422475188, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.7974493214217585} -> {'id': '10', 'value': 0.7974493214217585, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 1, 'value': 0.6339979268884381} -> {'id': '1', 'value': 0.6339979268884381, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 6, 'value': 0.12891711088177094} -> {'id': '6', 'value': 0.12891711088177094, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 1, 'value': 0.08396230873346411} -> {'id': '1', 'value': 0.08396230873346411, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 3, 'value': 0.9410652234565043} -> {'id': '3', 'value': 0.9410652234565043, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 14, 'value': 0.4513124114311572} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 4, 'value': 0.06381673677091548} -> {'id': '4', 'value': 0.06381673677091548, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 2, 'value': 0.2517022555393833} -> {'id': '2', 'value': 0.2517022555393833, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 16, 'value': 0.5863317341568764} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 3, 'value': 0.9947517055105713} -> {'id': '3', 'value': 0.9947517055105713, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 9, 'value': 0.4159519587978464} -> {'id': '9', 'value': 0.4159519587978464, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 11, 'value': 0.8735559878969411} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 3, 'value': 0.20344372528757992} -> {'id': '3', 'value': 0.20344372528757992, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 3, 'value': 0.900111802732165} -> {'id': '3', 'value': 0.900111802732165, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.0943776200319123} -> {'id': '10', 'value': 0.0943776200319123, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join miss (disk): {'id': 20, 'value': 0.5917905025518254} -> BRAK DOPASOWANIA
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 7, 'value': 0.8697891523556291} -> {'id': '7', 'value': 0.8697891523556291, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 3, 'value': 0.3831059105550999} -> {'id': '3', 'value': 0.3831059105550999, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 4, 'value': 0.7009492426469908} -> {'id': '4', 'value': 0.7009492426469908, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 10, 'value': 0.9582020867461875} -> {'id': '10', 'value': 0.9582020867461875, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:44 [INFO] Join hit (disk): {'id': 6, 'value': 0.5362858192641545} -> {'id': '6', 'value': 0.5362858192641545, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 3, 'value': 0.7075033569705491} -> {'id': '3', 'value': 0.7075033569705491, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 4, 'value': 0.3094300630994822} -> {'id': '4', 'value': 0.3094300630994822, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 9, 'value': 0.38668796890613844} -> {'id': '9', 'value': 0.38668796890613844, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:44 [INFO] Join hit (cache): {'id': 7, 'value': 0.023501305244427284} -> {'id': '7', 'value': 0.023501305244427284, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 13, 'value': 0.4960591949457933} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 2, 'value': 0.20939293801722447} -> {'id': '2', 'value': 0.20939293801722447, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 8, 'value': 0.155255768874918} -> {'id': '8', 'value': 0.155255768874918, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 15, 'value': 0.09883297292301985} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 3, 'value': 0.03349546809806003} -> {'id': '3', 'value': 0.03349546809806003, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 7, 'value': 0.9320379693310714} -> {'id': '7', 'value': 0.9320379693310714, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 1, 'value': 0.5703736907211231} -> {'id': '1', 'value': 0.5703736907211231, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 3, 'value': 0.12208804048745825} -> {'id': '3', 'value': 0.12208804048745825, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 5, 'value': 0.2379893014402653} -> {'id': '5', 'value': 0.2379893014402653, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 9, 'value': 0.0876711467626956} -> {'id': '9', 'value': 0.0876711467626956, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 7, 'value': 0.9081668916019521} -> {'id': '7', 'value': 0.9081668916019521, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 6, 'value': 0.7835883923131013} -> {'id': '6', 'value': 0.7835883923131013, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 8, 'value': 0.4822680758830532} -> {'id': '8', 'value': 0.4822680758830532, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 16, 'value': 0.2853291024416812} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 7, 'value': 0.1881515609091985} -> {'id': '7', 'value': 0.1881515609091985, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 6, 'value': 0.8866369567121236} -> {'id': '6', 'value': 0.8866369567121236, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 12, 'value': 0.21468517222737393} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 11, 'value': 0.9234999560380626} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 10, 'value': 0.7316317627678925} -> {'id': '10', 'value': 0.7316317627678925, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 2, 'value': 0.6785087000357556} -> {'id': '2', 'value': 0.6785087000357556, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 18, 'value': 0.3894919548126087} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 5, 'value': 9.687356480214682e-06} -> {'id': '5', 'value': 9.687356480214682e-06, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 17, 'value': 0.00035738846082422615} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join miss (disk): {'id': 19, 'value': 0.08476463089266817} -> BRAK DOPASOWANIA
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 5, 'value': 0.12917898080015877} -> {'id': '5', 'value': 0.12917898080015877, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 3, 'value': 0.09584750530835318} -> {'id': '3', 'value': 0.09584750530835318, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 1, 'value': 0.1092575212127943} -> {'id': '1', 'value': 0.1092575212127943, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:45 [INFO] Join hit (disk): {'id': 4, 'value': 0.48894960059194836} -> {'id': '4', 'value': 0.48894960059194836, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:45 [INFO] Join hit (cache): {'id': 1, 'value': 0.21853285162401048} -> {'id': '1', 'value': 0.21853285162401048, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 6, 'value': 0.25412458567476304} -> {'id': '6', 'value': 0.25412458567476304, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 20, 'value': 0.6253679992062423} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 2, 'value': 0.7292526335369494} -> {'id': '2', 'value': 0.7292526335369494, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 14, 'value': 0.8615838830935062} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 8, 'value': 0.9066158582332888} -> {'id': '8', 'value': 0.9066158582332888, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 19, 'value': 0.47607085017691764} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 4, 'value': 0.44733625739014016} -> {'id': '4', 'value': 0.44733625739014016, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 9, 'value': 0.6722354444449253} -> {'id': '9', 'value': 0.6722354444449253, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 4, 'value': 0.8288938314200763} -> {'id': '4', 'value': 0.8288938314200763, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.7133186567444731} -> {'id': '1', 'value': 0.7133186567444731, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 9, 'value': 0.44220261195388} -> {'id': '9', 'value': 0.44220261195388, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 2, 'value': 0.8792495705253148} -> {'id': '2', 'value': 0.8792495705253148, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 17, 'value': 0.47441551368372403} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 6, 'value': 0.3528812321255129} -> {'id': '6', 'value': 0.3528812321255129, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 5, 'value': 0.2220623563007207} -> {'id': '5', 'value': 0.2220623563007207, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 3, 'value': 0.5058351484984118} -> {'id': '3', 'value': 0.5058351484984118, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 7, 'value': 0.7395391281736634} -> {'id': '7', 'value': 0.7395391281736634, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 9, 'value': 0.8314690510600097} -> {'id': '9', 'value': 0.8314690510600097, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 3, 'value': 0.21465374586491104} -> {'id': '3', 'value': 0.21465374586491104, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 5, 'value': 0.6688256601624475} -> {'id': '5', 'value': 0.6688256601624475, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.42991579219283416} -> {'id': '1', 'value': 0.42991579219283416, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 8, 'value': 0.41911078515392386} -> {'id': '8', 'value': 0.41911078515392386, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 10, 'value': 0.5406243736930328} -> {'id': '10', 'value': 0.5406243736930328, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 10, 'value': 0.16495510648827427} -> {'id': '10', 'value': 0.16495510648827427, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 12, 'value': 0.12863836042854326} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 10, 'value': 0.9978669641807844} -> {'id': '10', 'value': 0.9978669641807844, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 20, 'value': 0.47650814932441465} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 4, 'value': 0.8630742516040155} -> {'id': '4', 'value': 0.8630742516040155, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.9066900774618222} -> {'id': '1', 'value': 0.9066900774618222, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 9, 'value': 0.32709392655590774} -> {'id': '9', 'value': 0.32709392655590774, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 5, 'value': 0.21046177390100695} -> {'id': '5', 'value': 0.21046177390100695, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 8, 'value': 0.7713153664456386} -> {'id': '8', 'value': 0.7713153664456386, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 10, 'value': 0.5152836441842841} -> {'id': '10', 'value': 0.5152836441842841, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 4, 'value': 0.40392620650783706} -> {'id': '4', 'value': 0.40392620650783706, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 5, 'value': 0.5429031698545701} -> {'id': '5', 'value': 0.5429031698545701, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.23494487241762918} -> {'id': '1', 'value': 0.23494487241762918, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join miss (disk): {'id': 11, 'value': 0.11823432363546105} -> BRAK DOPASOWANIA
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.0970723389576954} -> {'id': '1', 'value': 0.0970723389576954, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 7, 'value': 0.5940986831166333} -> {'id': '7', 'value': 0.5940986831166333, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 7, 'value': 0.3583788291547265} -> {'id': '7', 'value': 0.3583788291547265, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 3, 'value': 0.6738229076492248} -> {'id': '3', 'value': 0.6738229076492248, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 2, 'value': 0.5337140561011501} -> {'id': '2', 'value': 0.5337140561011501, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 3, 'value': 0.8714174798247032} -> {'id': '3', 'value': 0.8714174798247032, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.26555929769559516} -> {'id': '1', 'value': 0.26555929769559516, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 2, 'value': 0.9311747905226326} -> {'id': '2', 'value': 0.9311747905226326, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:46 [INFO] Join hit (cache): {'id': 1, 'value': 0.555560179086298} -> {'id': '1', 'value': 0.555560179086298, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:46 [INFO] Join hit (disk): {'id': 6, 'value': 0.0950520259768397} -> {'id': '6', 'value': 0.0950520259768397, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 16, 'value': 0.6867635531239468} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 9, 'value': 0.36598817851401644} -> {'id': '9', 'value': 0.36598817851401644, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 4, 'value': 0.7229764784294019} -> {'id': '4', 'value': 0.7229764784294019, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 9, 'value': 0.5759051172541553} -> {'id': '9', 'value': 0.5759051172541553, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 9, 'value': 0.25659330199614927} -> {'id': '9', 'value': 0.25659330199614927, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 1, 'value': 0.4530893982810017} -> {'id': '1', 'value': 0.4530893982810017, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 4, 'value': 0.633463267533494} -> {'id': '4', 'value': 0.633463267533494, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 15, 'value': 0.23064303246739126} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 8, 'value': 0.4816326987178817} -> {'id': '8', 'value': 0.4816326987178817, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 14, 'value': 0.2659837584053224} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 1, 'value': 0.9753843612733897} -> {'id': '1', 'value': 0.9753843612733897, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 6, 'value': 0.5878908441446834} -> {'id': '6', 'value': 0.5878908441446834, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 6, 'value': 0.5258428273987893} -> {'id': '6', 'value': 0.5258428273987893, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 8, 'value': 0.6550873484228293} -> {'id': '8', 'value': 0.6550873484228293, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 10, 'value': 0.45929378217412975} -> {'id': '10', 'value': 0.45929378217412975, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 5, 'value': 0.18981642162369872} -> {'id': '5', 'value': 0.18981642162369872, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 8, 'value': 0.39308916831659635} -> {'id': '8', 'value': 0.39308916831659635, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 6, 'value': 0.6221390699018914} -> {'id': '6', 'value': 0.6221390699018914, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 3, 'value': 0.4973129741565965} -> {'id': '3', 'value': 0.4973129741565965, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 19, 'value': 0.12226560258368901} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 9, 'value': 0.36897316718684803} -> {'id': '9', 'value': 0.36897316718684803, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 3, 'value': 0.7334786159125236} -> {'id': '3', 'value': 0.7334786159125236, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 10, 'value': 0.43086629875002236} -> {'id': '10', 'value': 0.43086629875002236, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 19, 'value': 0.7774730959874983} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 16, 'value': 0.5173959618683174} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 10, 'value': 0.4512539202704957} -> {'id': '10', 'value': 0.4512539202704957, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 17, 'value': 0.9763847775714425} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 5, 'value': 0.12762303699127286} -> {'id': '5', 'value': 0.12762303699127286, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 16, 'value': 0.1933574928253856} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 19, 'value': 0.6276209058219978} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 12, 'value': 0.7136186892361089} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 5, 'value': 0.15974111556055326} -> {'id': '5', 'value': 0.15974111556055326, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 4, 'value': 0.5837132656436493} -> {'id': '4', 'value': 0.5837132656436493, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:47 [INFO] Join hit (cache): {'id': 3, 'value': 0.7390429088550505} -> {'id': '3', 'value': 0.7390429088550505, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:47 [INFO] Join miss (disk): {'id': 12, 'value': 0.37129001614731916} -> BRAK DOPASOWANIA
+2025-05-13 21:21:47 [INFO] Join hit (disk): {'id': 7, 'value': 0.26853352290199095} -> {'id': '7', 'value': 0.26853352290199095, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 17, 'value': 0.20900660142551164} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.9662372581206295} -> {'id': '3', 'value': 0.9662372581206295, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 18, 'value': 0.45810869094767914} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 5, 'value': 0.6828552132236851} -> {'id': '5', 'value': 0.6828552132236851, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 6, 'value': 0.6077036938221159} -> {'id': '6', 'value': 0.6077036938221159, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 7, 'value': 0.6032425183524305} -> {'id': '7', 'value': 0.6032425183524305, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.13667716453371004} -> {'id': '3', 'value': 0.13667716453371004, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 4, 'value': 0.7719009544852276} -> {'id': '4', 'value': 0.7719009544852276, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 1, 'value': 0.12607806935990906} -> {'id': '1', 'value': 0.12607806935990906, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 4, 'value': 0.4432536020220794} -> {'id': '4', 'value': 0.4432536020220794, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 7, 'value': 0.5519737889886147} -> {'id': '7', 'value': 0.5519737889886147, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 9, 'value': 0.917784960873711} -> {'id': '9', 'value': 0.917784960873711, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 13, 'value': 0.6440600126175025} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 4, 'value': 0.8087645712867603} -> {'id': '4', 'value': 0.8087645712867603, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 17, 'value': 0.3800482780713287} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 9, 'value': 0.5308541551881656} -> {'id': '9', 'value': 0.5308541551881656, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 1, 'value': 0.3866533979317729} -> {'id': '1', 'value': 0.3866533979317729, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.3564675776384183} -> {'id': '3', 'value': 0.3564675776384183, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 4, 'value': 0.873505000738203} -> {'id': '4', 'value': 0.873505000738203, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 1, 'value': 0.5704832334932238} -> {'id': '1', 'value': 0.5704832334932238, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 14, 'value': 0.6252637616834229} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 4, 'value': 0.6833642652680617} -> {'id': '4', 'value': 0.6833642652680617, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 8, 'value': 0.7141956169698203} -> {'id': '8', 'value': 0.7141956169698203, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 8, 'value': 0.752729593189397} -> {'id': '8', 'value': 0.752729593189397, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 15, 'value': 0.13280674387589853} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 1, 'value': 0.5909875217278128} -> {'id': '1', 'value': 0.5909875217278128, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 17, 'value': 0.029048138443573568} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 18, 'value': 0.9405464624367423} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 1, 'value': 0.7770949174408119} -> {'id': '1', 'value': 0.7770949174408119, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.9759906908113742} -> {'id': '3', 'value': 0.9759906908113742, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 16, 'value': 0.8418802580060427} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 2, 'value': 0.1159770059235512} -> {'id': '2', 'value': 0.1159770059235512, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 14, 'value': 0.031710959830394625} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 10, 'value': 0.9256421092189399} -> {'id': '10', 'value': 0.9256421092189399, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 9, 'value': 0.3089371271476563} -> {'id': '9', 'value': 0.3089371271476563, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 6, 'value': 0.3286935003558893} -> {'id': '6', 'value': 0.3286935003558893, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:48 [INFO] Join hit (disk): {'id': 8, 'value': 0.24250960131379595} -> {'id': '8', 'value': 0.24250960131379595, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.6274571264152433} -> {'id': '3', 'value': 0.6274571264152433, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 8, 'value': 0.3233109394455601} -> {'id': '8', 'value': 0.3233109394455601, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:48 [INFO] Join miss (disk): {'id': 16, 'value': 0.09975176350707504} -> BRAK DOPASOWANIA
+2025-05-13 21:21:48 [INFO] Join hit (cache): {'id': 3, 'value': 0.8601023514896355} -> {'id': '3', 'value': 0.8601023514896355, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 19, 'value': 0.306914708664651} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 14, 'value': 0.6905619557790131} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 1, 'value': 0.8677183908898727} -> {'id': '1', 'value': 0.8677183908898727, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 7, 'value': 0.8202175956400679} -> {'id': '7', 'value': 0.8202175956400679, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 4, 'value': 0.9532299237558068} -> {'id': '4', 'value': 0.9532299237558068, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 10, 'value': 0.47563977379528044} -> {'id': '10', 'value': 0.47563977379528044, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 4, 'value': 0.7329689878733496} -> {'id': '4', 'value': 0.7329689878733496, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 8, 'value': 0.8026512451941435} -> {'id': '8', 'value': 0.8026512451941435, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 1, 'value': 0.06326782248527596} -> {'id': '1', 'value': 0.06326782248527596, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 9, 'value': 0.7236345486419511} -> {'id': '9', 'value': 0.7236345486419511, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 9, 'value': 0.12152571910169918} -> {'id': '9', 'value': 0.12152571910169918, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 7, 'value': 0.1816543202864691} -> {'id': '7', 'value': 0.1816543202864691, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 5, 'value': 0.7633571489716922} -> {'id': '5', 'value': 0.7633571489716922, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 6, 'value': 0.9703985805668126} -> {'id': '6', 'value': 0.9703985805668126, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 4, 'value': 0.5581333755121424} -> {'id': '4', 'value': 0.5581333755121424, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 2, 'value': 0.28230052167228925} -> {'id': '2', 'value': 0.28230052167228925, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 4, 'value': 0.7414783346597092} -> {'id': '4', 'value': 0.7414783346597092, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 6, 'value': 0.14377555925510277} -> {'id': '6', 'value': 0.14377555925510277, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 4, 'value': 0.3102581135922837} -> {'id': '4', 'value': 0.3102581135922837, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 3, 'value': 0.49462417093455} -> {'id': '3', 'value': 0.49462417093455, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 6, 'value': 0.07285317204480468} -> {'id': '6', 'value': 0.07285317204480468, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 15, 'value': 0.39305739927658245} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 7, 'value': 0.8588454147576469} -> {'id': '7', 'value': 0.8588454147576469, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 2, 'value': 0.33056081724085895} -> {'id': '2', 'value': 0.33056081724085895, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 8, 'value': 0.4566556423073377} -> {'id': '8', 'value': 0.4566556423073377, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 3, 'value': 0.7741612899820047} -> {'id': '3', 'value': 0.7741612899820047, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 20, 'value': 0.13002455953781866} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 6, 'value': 0.9053857986412488} -> {'id': '6', 'value': 0.9053857986412488, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 5, 'value': 0.7159037124616907} -> {'id': '5', 'value': 0.7159037124616907, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 10, 'value': 0.6940944841343036} -> {'id': '10', 'value': 0.6940944841343036, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 3, 'value': 0.1745294245393122} -> {'id': '3', 'value': 0.1745294245393122, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 6, 'value': 0.2546411576785724} -> {'id': '6', 'value': 0.2546411576785724, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 9, 'value': 0.12735388832248673} -> {'id': '9', 'value': 0.12735388832248673, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 17, 'value': 0.9149349602095367} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 2, 'value': 0.560260074216513} -> {'id': '2', 'value': 0.560260074216513, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 8, 'value': 0.4862265713328803} -> {'id': '8', 'value': 0.4862265713328803, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 18, 'value': 0.03979019134437145} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 9, 'value': 0.6988938487077057} -> {'id': '9', 'value': 0.6988938487077057, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 8, 'value': 0.35929688800515447} -> {'id': '8', 'value': 0.35929688800515447, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 4, 'value': 0.8517365188809806} -> {'id': '4', 'value': 0.8517365188809806, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 10, 'value': 0.9113168524050903} -> {'id': '10', 'value': 0.9113168524050903, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:49 [INFO] Join miss (disk): {'id': 13, 'value': 0.42500956399291656} -> BRAK DOPASOWANIA
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 4, 'value': 0.4448796707981114} -> {'id': '4', 'value': 0.4448796707981114, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 2, 'value': 0.7861952483601661} -> {'id': '2', 'value': 0.7861952483601661, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 1, 'value': 0.6299825171871326} -> {'id': '1', 'value': 0.6299825171871326, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:49 [INFO] Join hit (cache): {'id': 10, 'value': 0.7051280116692592} -> {'id': '10', 'value': 0.7051280116692592, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:49 [INFO] Join hit (disk): {'id': 7, 'value': 0.14965140332710014} -> {'id': '7', 'value': 0.14965140332710014, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 5, 'value': 0.20781476662717846} -> {'id': '5', 'value': 0.20781476662717846, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 2, 'value': 0.8916388903871519} -> {'id': '2', 'value': 0.8916388903871519, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.08250295036520128} -> {'id': '10', 'value': 0.08250295036520128, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.9406678154112845} -> {'id': '10', 'value': 0.9406678154112845, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 15, 'value': 0.1891551558766712} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 5, 'value': 0.6337017767020138} -> {'id': '5', 'value': 0.6337017767020138, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 4, 'value': 0.01824889802387686} -> {'id': '4', 'value': 0.01824889802387686, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 6, 'value': 0.4164687370109803} -> {'id': '6', 'value': 0.4164687370109803, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 12, 'value': 0.19765793368771112} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 4, 'value': 0.9584461638252884} -> {'id': '4', 'value': 0.9584461638252884, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 9, 'value': 0.8578221149682441} -> {'id': '9', 'value': 0.8578221149682441, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 5, 'value': 0.4048276917983773} -> {'id': '5', 'value': 0.4048276917983773, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.49770477879796204} -> {'id': '10', 'value': 0.49770477879796204, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 5, 'value': 0.6504851085432665} -> {'id': '5', 'value': 0.6504851085432665, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 2, 'value': 0.398117185073382} -> {'id': '2', 'value': 0.398117185073382, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 15, 'value': 0.6372226417582915} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 5, 'value': 0.23443916519449948} -> {'id': '5', 'value': 0.23443916519449948, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 20, 'value': 0.33762378316827224} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.5862105286823893} -> {'id': '10', 'value': 0.5862105286823893, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 3, 'value': 0.1327082331404269} -> {'id': '3', 'value': 0.1327082331404269, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 15, 'value': 0.5548600294318032} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 7, 'value': 0.5142769073049457} -> {'id': '7', 'value': 0.5142769073049457, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.20955699005611317} -> {'id': '10', 'value': 0.20955699005611317, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.9617422685989894} -> {'id': '10', 'value': 0.9617422685989894, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 10, 'value': 0.30461637447673784} -> {'id': '10', 'value': 0.30461637447673784, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 18, 'value': 0.4774137723346181} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 6, 'value': 0.14334587012696176} -> {'id': '6', 'value': 0.14334587012696176, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 4, 'value': 0.6081320809866749} -> {'id': '4', 'value': 0.6081320809866749, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 3, 'value': 0.0476425301520621} -> {'id': '3', 'value': 0.0476425301520621, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 3, 'value': 0.4316011664401702} -> {'id': '3', 'value': 0.4316011664401702, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 6, 'value': 0.08794287554107483} -> {'id': '6', 'value': 0.08794287554107483, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 4, 'value': 0.3761059099297993} -> {'id': '4', 'value': 0.3761059099297993, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 17, 'value': 0.009761641419487543} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 4, 'value': 0.9512599789088669} -> {'id': '4', 'value': 0.9512599789088669, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 1, 'value': 0.23322318070949066} -> {'id': '1', 'value': 0.23322318070949066, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 5, 'value': 0.14881476541141325} -> {'id': '5', 'value': 0.14881476541141325, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:50 [INFO] Join hit (disk): {'id': 2, 'value': 0.8845644395511627} -> {'id': '2', 'value': 0.8845644395511627, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 19, 'value': 0.8661448837151472} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 3, 'value': 0.6479956791487281} -> {'id': '3', 'value': 0.6479956791487281, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 2, 'value': 0.6938721748377432} -> {'id': '2', 'value': 0.6938721748377432, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:50 [INFO] Join miss (disk): {'id': 13, 'value': 0.3648678478732279} -> BRAK DOPASOWANIA
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 3, 'value': 0.025969443511395407} -> {'id': '3', 'value': 0.025969443511395407, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 2, 'value': 0.6595147124033995} -> {'id': '2', 'value': 0.6595147124033995, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:50 [INFO] Join hit (cache): {'id': 1, 'value': 0.8595899218000479} -> {'id': '1', 'value': 0.8595899218000479, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 10, 'value': 0.3141118773223758} -> {'id': '10', 'value': 0.3141118773223758, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 4, 'value': 0.5968778150606283} -> {'id': '4', 'value': 0.5968778150606283, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 2, 'value': 0.24171195605297335} -> {'id': '2', 'value': 0.24171195605297335, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 4, 'value': 0.7860252922146652} -> {'id': '4', 'value': 0.7860252922146652, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 8, 'value': 0.22534320900695126} -> {'id': '8', 'value': 0.22534320900695126, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 10, 'value': 0.7897416452822528} -> {'id': '10', 'value': 0.7897416452822528, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 7, 'value': 0.19979292861551756} -> {'id': '7', 'value': 0.19979292861551756, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.520740015580664} -> {'id': '3', 'value': 0.520740015580664, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 6, 'value': 0.7226642656666181} -> {'id': '6', 'value': 0.7226642656666181, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 15, 'value': 0.4115332256058015} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 11, 'value': 0.8978484817775456} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 8, 'value': 0.019280003861000927} -> {'id': '8', 'value': 0.019280003861000927, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.22157866583424524} -> {'id': '3', 'value': 0.22157866583424524, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 9, 'value': 0.3318695144200482} -> {'id': '9', 'value': 0.3318695144200482, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 16, 'value': 0.18406637398807568} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 9, 'value': 0.7201431035772176} -> {'id': '9', 'value': 0.7201431035772176, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 6, 'value': 0.027648834952237578} -> {'id': '6', 'value': 0.027648834952237578, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 17, 'value': 0.11684526086787195} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 1, 'value': 0.20594690913570335} -> {'id': '1', 'value': 0.20594690913570335, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.7041301694216864} -> {'id': '3', 'value': 0.7041301694216864, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.3944229334666942} -> {'id': '3', 'value': 0.3944229334666942, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 6, 'value': 0.0005495777056354623} -> {'id': '6', 'value': 0.0005495777056354623, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 9, 'value': 0.8754620024844907} -> {'id': '9', 'value': 0.8754620024844907, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 5, 'value': 0.5718816792230442} -> {'id': '5', 'value': 0.5718816792230442, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 6, 'value': 0.9812982856055165} -> {'id': '6', 'value': 0.9812982856055165, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.2543977726357086} -> {'id': '3', 'value': 0.2543977726357086, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 10, 'value': 0.8139589993881966} -> {'id': '10', 'value': 0.8139589993881966, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 5, 'value': 0.43192884153060707} -> {'id': '5', 'value': 0.43192884153060707, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 15, 'value': 0.46529059850721155} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 20, 'value': 0.991241532601076} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.9804552888399145} -> {'id': '3', 'value': 0.9804552888399145, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 19, 'value': 0.08955741630305913} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 7, 'value': 0.7570597571789714} -> {'id': '7', 'value': 0.7570597571789714, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 7, 'value': 0.03154739750366975} -> {'id': '7', 'value': 0.03154739750366975, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 1, 'value': 0.17205246939283625} -> {'id': '1', 'value': 0.17205246939283625, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 1, 'value': 0.28032912383923003} -> {'id': '1', 'value': 0.28032912383923003, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.7795150426304678} -> {'id': '3', 'value': 0.7795150426304678, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 15, 'value': 0.45722666644780585} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join miss (disk): {'id': 20, 'value': 0.6186647510783316} -> BRAK DOPASOWANIA
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 1, 'value': 0.5442234944612094} -> {'id': '1', 'value': 0.5442234944612094, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.2684961335615237} -> {'id': '3', 'value': 0.2684961335615237, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 7, 'value': 0.42490243300374475} -> {'id': '7', 'value': 0.42490243300374475, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 4, 'value': 0.5045038613116619} -> {'id': '4', 'value': 0.5045038613116619, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:51 [INFO] Join hit (disk): {'id': 9, 'value': 0.29669350765583713} -> {'id': '9', 'value': 0.29669350765583713, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.5966201636796404} -> {'id': '3', 'value': 0.5966201636796404, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 5, 'value': 0.2632207579518878} -> {'id': '5', 'value': 0.2632207579518878, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 9, 'value': 0.6078004524391257} -> {'id': '9', 'value': 0.6078004524391257, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 7, 'value': 0.2977975556357517} -> {'id': '7', 'value': 0.2977975556357517, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 1, 'value': 0.1898619600930379} -> {'id': '1', 'value': 0.1898619600930379, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 3, 'value': 0.6951438743580576} -> {'id': '3', 'value': 0.6951438743580576, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:51 [INFO] Join hit (cache): {'id': 5, 'value': 0.5491371113330928} -> {'id': '5', 'value': 0.5491371113330928, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 13, 'value': 0.14577078347334227} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 6, 'value': 0.4363049390851029} -> {'id': '6', 'value': 0.4363049390851029, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 17, 'value': 0.9489873698296033} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 3, 'value': 0.9806335355586961} -> {'id': '3', 'value': 0.9806335355586961, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.782901579215142} -> {'id': '7', 'value': 0.782901579215142, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 5, 'value': 0.43207334631923844} -> {'id': '5', 'value': 0.43207334631923844, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 13, 'value': 0.27807170890436683} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 18, 'value': 0.8105916859721014} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 2, 'value': 0.5492384959797675} -> {'id': '2', 'value': 0.5492384959797675, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 8, 'value': 0.1725660644423268} -> {'id': '8', 'value': 0.1725660644423268, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 12, 'value': 0.44176560072172655} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 6, 'value': 0.5121399638762301} -> {'id': '6', 'value': 0.5121399638762301, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.9763116106984466} -> {'id': '7', 'value': 0.9763116106984466, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 9, 'value': 0.9960716224143501} -> {'id': '9', 'value': 0.9960716224143501, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 2, 'value': 0.6860238035893944} -> {'id': '2', 'value': 0.6860238035893944, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 10, 'value': 0.0330142039011857} -> {'id': '10', 'value': 0.0330142039011857, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 4, 'value': 0.9306691026804809} -> {'id': '4', 'value': 0.9306691026804809, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 2, 'value': 0.33393369647813165} -> {'id': '2', 'value': 0.33393369647813165, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 8, 'value': 0.42283602045899726} -> {'id': '8', 'value': 0.42283602045899726, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.7031518789361133} -> {'id': '7', 'value': 0.7031518789361133, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 3, 'value': 0.001096655024427684} -> {'id': '3', 'value': 0.001096655024427684, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 6, 'value': 0.5743193064469927} -> {'id': '6', 'value': 0.5743193064469927, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 6, 'value': 0.4377045282446447} -> {'id': '6', 'value': 0.4377045282446447, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 16, 'value': 0.17510930492630183} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 3, 'value': 0.8779309365631934} -> {'id': '3', 'value': 0.8779309365631934, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.13375125793085652} -> {'id': '7', 'value': 0.13375125793085652, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.886829601711523} -> {'id': '7', 'value': 0.886829601711523, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 2, 'value': 0.8894703986761555} -> {'id': '2', 'value': 0.8894703986761555, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 9, 'value': 0.2571752722158165} -> {'id': '9', 'value': 0.2571752722158165, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 13, 'value': 0.34909698443984916} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.3374160163738208} -> {'id': '7', 'value': 0.3374160163738208, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 10, 'value': 0.3349210287288249} -> {'id': '10', 'value': 0.3349210287288249, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 1, 'value': 0.4685665701244802} -> {'id': '1', 'value': 0.4685665701244802, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 10, 'value': 0.25041925371691454} -> {'id': '10', 'value': 0.25041925371691454, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 10, 'value': 0.43021707325812} -> {'id': '10', 'value': 0.43021707325812, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 2, 'value': 0.7025219226042916} -> {'id': '2', 'value': 0.7025219226042916, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 9, 'value': 0.7013760704614256} -> {'id': '9', 'value': 0.7013760704614256, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 20, 'value': 0.006196218643956919} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (disk): {'id': 4, 'value': 0.012482183490854615} -> {'id': '4', 'value': 0.012482183490854615, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 2, 'value': 0.07802336082769779} -> {'id': '2', 'value': 0.07802336082769779, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 14, 'value': 0.47764906354848613} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join miss (disk): {'id': 20, 'value': 0.5005290402606778} -> BRAK DOPASOWANIA
+2025-05-13 21:21:52 [INFO] Join hit (cache): {'id': 7, 'value': 0.24525676376115746} -> {'id': '7', 'value': 0.24525676376115746, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 14, 'value': 0.11310853822810796} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 17, 'value': 0.6734171226163981} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 5, 'value': 0.4271128467569606} -> {'id': '5', 'value': 0.4271128467569606, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 3, 'value': 0.7428861367580398} -> {'id': '3', 'value': 0.7428861367580398, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 1, 'value': 0.5259575772963122} -> {'id': '1', 'value': 0.5259575772963122, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 1, 'value': 0.11872162756797544} -> {'id': '1', 'value': 0.11872162756797544, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 1, 'value': 0.9738944342699493} -> {'id': '1', 'value': 0.9738944342699493, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 7, 'value': 0.29357785256657176} -> {'id': '7', 'value': 0.29357785256657176, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 3, 'value': 0.3542434887760575} -> {'id': '3', 'value': 0.3542434887760575, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 5, 'value': 0.9175010340628469} -> {'id': '5', 'value': 0.9175010340628469, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.14240283489821437} -> {'id': '4', 'value': 0.14240283489821437, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 7, 'value': 0.6698891569113898} -> {'id': '7', 'value': 0.6698891569113898, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 5, 'value': 0.06381996831722447} -> {'id': '5', 'value': 0.06381996831722447, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 3, 'value': 0.1954699170153288} -> {'id': '3', 'value': 0.1954699170153288, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.25713551718043615} -> {'id': '4', 'value': 0.25713551718043615, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 14, 'value': 0.005213500269188542} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.9625015393056813} -> {'id': '4', 'value': 0.9625015393056813, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 7, 'value': 0.6032159316173905} -> {'id': '7', 'value': 0.6032159316173905, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 3, 'value': 0.34214807971976646} -> {'id': '3', 'value': 0.34214807971976646, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 8, 'value': 0.6248903868918897} -> {'id': '8', 'value': 0.6248903868918897, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 18, 'value': 0.734861934074016} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.18885701774762242} -> {'id': '4', 'value': 0.18885701774762242, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 8, 'value': 0.17085686700053837} -> {'id': '8', 'value': 0.17085686700053837, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 16, 'value': 0.5951028170360504} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 1, 'value': 0.27529383334599167} -> {'id': '1', 'value': 0.27529383334599167, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 2, 'value': 0.18090139209031442} -> {'id': '2', 'value': 0.18090139209031442, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.07710101700487948} -> {'id': '4', 'value': 0.07710101700487948, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 1, 'value': 0.3959929545577757} -> {'id': '1', 'value': 0.3959929545577757, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 19, 'value': 0.0017740232913423526} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 18, 'value': 0.41051943392103707} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 1, 'value': 0.9366841977745972} -> {'id': '1', 'value': 0.9366841977745972, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 5, 'value': 0.42735066750664774} -> {'id': '5', 'value': 0.42735066750664774, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 19, 'value': 0.08608610365584946} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 3, 'value': 0.21375516136613093} -> {'id': '3', 'value': 0.21375516136613093, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 10, 'value': 0.35673675983990305} -> {'id': '10', 'value': 0.35673675983990305, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 6, 'value': 0.7223082847505502} -> {'id': '6', 'value': 0.7223082847505502, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:53 [INFO] Join miss (disk): {'id': 20, 'value': 0.1782089591788818} -> BRAK DOPASOWANIA
+2025-05-13 21:21:53 [INFO] Join hit (cache): {'id': 4, 'value': 0.21374922897173643} -> {'id': '4', 'value': 0.21374922897173643, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 7, 'value': 0.7620134596335119} -> {'id': '7', 'value': 0.7620134596335119, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:53 [INFO] Join hit (disk): {'id': 9, 'value': 0.9914671844372774} -> {'id': '9', 'value': 0.9914671844372774, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 8, 'value': 0.7398068984861075} -> {'id': '8', 'value': 0.7398068984861075, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 5, 'value': 0.07784317290062537} -> {'id': '5', 'value': 0.07784317290062537, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 5, 'value': 0.4764080097211826} -> {'id': '5', 'value': 0.4764080097211826, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 8, 'value': 0.8288588614182942} -> {'id': '8', 'value': 0.8288588614182942, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.25510628226185517} -> {'id': '10', 'value': 0.25510628226185517, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 15, 'value': 0.8349761458371797} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 2, 'value': 0.17656756138093976} -> {'id': '2', 'value': 0.17656756138093976, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 5, 'value': 0.04432945724767634} -> {'id': '5', 'value': 0.04432945724767634, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 15, 'value': 0.08369531750147274} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 15, 'value': 0.3278649771253235} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 1, 'value': 0.30231192921993144} -> {'id': '1', 'value': 0.30231192921993144, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 3, 'value': 0.34218074338307136} -> {'id': '3', 'value': 0.34218074338307136, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 11, 'value': 0.8453995579890533} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.7546746001787935} -> {'id': '10', 'value': 0.7546746001787935, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.8797062554691434} -> {'id': '10', 'value': 0.8797062554691434, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 6, 'value': 0.2049757245653382} -> {'id': '6', 'value': 0.2049757245653382, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 1, 'value': 0.005670942562778114} -> {'id': '1', 'value': 0.005670942562778114, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 19, 'value': 0.6446897466601598} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 9, 'value': 0.21327558976093863} -> {'id': '9', 'value': 0.21327558976093863, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 14, 'value': 0.14558506217201206} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 2, 'value': 0.7963195194452182} -> {'id': '2', 'value': 0.7963195194452182, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.12949788725829925} -> {'id': '10', 'value': 0.12949788725829925, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 1, 'value': 0.7122462672851302} -> {'id': '1', 'value': 0.7122462672851302, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 9, 'value': 0.9955461938574155} -> {'id': '9', 'value': 0.9955461938574155, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 6, 'value': 0.5165727206732231} -> {'id': '6', 'value': 0.5165727206732231, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 1, 'value': 0.17927726401047073} -> {'id': '1', 'value': 0.17927726401047073, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 6, 'value': 0.072795651917687} -> {'id': '6', 'value': 0.072795651917687, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 8, 'value': 0.6917284598810617} -> {'id': '8', 'value': 0.6917284598810617, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.26396839558374097} -> {'id': '10', 'value': 0.26396839558374097, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 2, 'value': 0.31033965895972115} -> {'id': '2', 'value': 0.31033965895972115, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 9, 'value': 0.7546650489088143} -> {'id': '9', 'value': 0.7546650489088143, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 10, 'value': 0.9102010197635609} -> {'id': '10', 'value': 0.9102010197635609, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 1, 'value': 0.2884329756105726} -> {'id': '1', 'value': 0.2884329756105726, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 8, 'value': 0.8623298157247515} -> {'id': '8', 'value': 0.8623298157247515, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 8, 'value': 0.5594764310839802} -> {'id': '8', 'value': 0.5594764310839802, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 19, 'value': 0.14879486186182544} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 3, 'value': 0.6708120862476497} -> {'id': '3', 'value': 0.6708120862476497, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 5, 'value': 0.8226503219970964} -> {'id': '5', 'value': 0.8226503219970964, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 18, 'value': 0.22289498398483998} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 6, 'value': 0.32428180446266497} -> {'id': '6', 'value': 0.32428180446266497, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:54 [INFO] Join hit (cache): {'id': 9, 'value': 0.03275501688018134} -> {'id': '9', 'value': 0.03275501688018134, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 13, 'value': 0.8471150939471802} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join miss (disk): {'id': 17, 'value': 0.30652733026445866} -> BRAK DOPASOWANIA
+2025-05-13 21:21:54 [INFO] Join hit (disk): {'id': 2, 'value': 0.4881135026812774} -> {'id': '2', 'value': 0.4881135026812774, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 17, 'value': 0.706714828487907} -> BRAK DOPASOWANIA
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 10, 'value': 0.23035582295383739} -> {'id': '10', 'value': 0.23035582295383739, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 3, 'value': 0.8644769624634231} -> {'id': '3', 'value': 0.8644769624634231, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 1, 'value': 0.004324448899303279} -> {'id': '1', 'value': 0.004324448899303279, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.6653300284260553} -> {'id': '2', 'value': 0.6653300284260553, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 4, 'value': 0.6354037731346188} -> {'id': '4', 'value': 0.6354037731346188, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.25923227132446214} -> {'id': '6', 'value': 0.25923227132446214, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 20, 'value': 0.9990565159222874} -> BRAK DOPASOWANIA
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 10, 'value': 0.9589176363319614} -> {'id': '10', 'value': 0.9589176363319614, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 1, 'value': 0.7405557048576248} -> {'id': '1', 'value': 0.7405557048576248, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 4, 'value': 0.2510531630943682} -> {'id': '4', 'value': 0.2510531630943682, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 7, 'value': 0.6325748526523225} -> {'id': '7', 'value': 0.6325748526523225, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 4, 'value': 0.3330626243872593} -> {'id': '4', 'value': 0.3330626243872593, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.1463884244090108} -> {'id': '2', 'value': 0.1463884244090108, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 10, 'value': 0.1470717400497299} -> {'id': '10', 'value': 0.1470717400497299, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 5, 'value': 0.9749680598017443} -> {'id': '5', 'value': 0.9749680598017443, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 16, 'value': 0.7246318589448325} -> BRAK DOPASOWANIA
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 8, 'value': 0.30481420089721545} -> {'id': '8', 'value': 0.30481420089721545, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.43538332213241204} -> {'id': '8', 'value': 0.43538332213241204, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.552449296977155} -> {'id': '6', 'value': 0.552449296977155, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.5602833036477239} -> {'id': '6', 'value': 0.5602833036477239, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.7732863028072599} -> {'id': '6', 'value': 0.7732863028072599, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 10, 'value': 0.4632390086371363} -> {'id': '10', 'value': 0.4632390086371363, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 3, 'value': 0.4091440097381207} -> {'id': '3', 'value': 0.4091440097381207, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 1, 'value': 0.6885866293191649} -> {'id': '1', 'value': 0.6885866293191649, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 19, 'value': 0.8071754605129609} -> BRAK DOPASOWANIA
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 7, 'value': 0.0293463224124918} -> {'id': '7', 'value': 0.0293463224124918, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 10, 'value': 0.16623403135819959} -> {'id': '10', 'value': 0.16623403135819959, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.6750631531865415} -> {'id': '8', 'value': 0.6750631531865415, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.9396301073709742} -> {'id': '2', 'value': 0.9396301073709742, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 3, 'value': 0.10217497954656785} -> {'id': '3', 'value': 0.10217497954656785, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 1, 'value': 0.5083895895370346} -> {'id': '1', 'value': 0.5083895895370346, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 4, 'value': 0.5114602939493001} -> {'id': '4', 'value': 0.5114602939493001, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 10, 'value': 0.422583502236195} -> {'id': '10', 'value': 0.422583502236195, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 3, 'value': 0.7516481304816486} -> {'id': '3', 'value': 0.7516481304816486, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.42918595688277505} -> {'id': '8', 'value': 0.42918595688277505, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 5, 'value': 0.7936873991700473} -> {'id': '5', 'value': 0.7936873991700473, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 15, 'value': 0.6899747627989253} -> BRAK DOPASOWANIA
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 4, 'value': 0.6875262671671843} -> {'id': '4', 'value': 0.6875262671671843, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 7, 'value': 0.7623942536748698} -> {'id': '7', 'value': 0.7623942536748698, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.14853932745265064} -> {'id': '8', 'value': 0.14853932745265064, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.01823831434609846} -> {'id': '2', 'value': 0.01823831434609846, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 6, 'value': 0.6973377565465158} -> {'id': '6', 'value': 0.6973377565465158, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 9, 'value': 0.06376986479097047} -> {'id': '9', 'value': 0.06376986479097047, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 4, 'value': 0.6294785799731496} -> {'id': '4', 'value': 0.6294785799731496, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.5959322548473842} -> {'id': '8', 'value': 0.5959322548473842, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (disk): {'id': 1, 'value': 0.13297724824474} -> {'id': '1', 'value': 0.13297724824474, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 3, 'value': 0.5550799069693897} -> {'id': '3', 'value': 0.5550799069693897, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.39378515498069744} -> {'id': '6', 'value': 0.39378515498069744, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 1, 'value': 0.7663771923158769} -> {'id': '1', 'value': 0.7663771923158769, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 9, 'value': 0.969049502488138} -> {'id': '9', 'value': 0.969049502488138, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 9, 'value': 0.192463967899133} -> {'id': '9', 'value': 0.192463967899133, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.7605036023116961} -> {'id': '2', 'value': 0.7605036023116961, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 9, 'value': 0.11510285914356289} -> {'id': '9', 'value': 0.11510285914356289, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 4, 'value': 0.46433167466257286} -> {'id': '4', 'value': 0.46433167466257286, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 6, 'value': 0.9143169715872974} -> {'id': '6', 'value': 0.9143169715872974, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 2, 'value': 0.12223761329649263} -> {'id': '2', 'value': 0.12223761329649263, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.7103908569119706} -> {'id': '8', 'value': 0.7103908569119706, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 8, 'value': 0.27582058394367226} -> {'id': '8', 'value': 0.27582058394367226, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:55 [INFO] Join hit (cache): {'id': 1, 'value': 0.960386222314042} -> {'id': '1', 'value': 0.960386222314042, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:55 [INFO] Join miss (disk): {'id': 18, 'value': 0.4622541478991641} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 11, 'value': 0.10292285893079356} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 10, 'value': 0.36456024233282724} -> {'id': '10', 'value': 0.36456024233282724, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 13, 'value': 0.886527126581097} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 10, 'value': 0.25419199977017515} -> {'id': '10', 'value': 0.25419199977017515, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 1, 'value': 0.4150606915271675} -> {'id': '1', 'value': 0.4150606915271675, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 9, 'value': 0.4863531013919755} -> {'id': '9', 'value': 0.4863531013919755, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 7, 'value': 0.5239200497297283} -> {'id': '7', 'value': 0.5239200497297283, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 10, 'value': 0.22768156055583366} -> {'id': '10', 'value': 0.22768156055583366, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 20, 'value': 0.10927560114623724} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 7, 'value': 0.8680974390561309} -> {'id': '7', 'value': 0.8680974390561309, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 13, 'value': 0.08322487944649626} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 5, 'value': 0.6568412878971023} -> {'id': '5', 'value': 0.6568412878971023, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 5, 'value': 0.9906893007714733} -> {'id': '5', 'value': 0.9906893007714733, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.22219929977911135} -> {'id': '8', 'value': 0.22219929977911135, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 4, 'value': 0.5844412070942128} -> {'id': '4', 'value': 0.5844412070942128, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 14, 'value': 0.7868338499993938} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 5, 'value': 0.31469355854312187} -> {'id': '5', 'value': 0.31469355854312187, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 3, 'value': 0.8101770317886209} -> {'id': '3', 'value': 0.8101770317886209, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.95950529288794} -> {'id': '8', 'value': 0.95950529288794, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 12, 'value': 0.8816571439183167} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 20, 'value': 0.6646515345628173} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 9, 'value': 0.3465378156093648} -> {'id': '9', 'value': 0.3465378156093648, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 4, 'value': 0.8317015666376837} -> {'id': '4', 'value': 0.8317015666376837, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 6, 'value': 0.334313881585648} -> {'id': '6', 'value': 0.334313881585648, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 9, 'value': 0.9285760799262748} -> {'id': '9', 'value': 0.9285760799262748, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.9281963182310611} -> {'id': '8', 'value': 0.9281963182310611, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 10, 'value': 0.9578375747086428} -> {'id': '10', 'value': 0.9578375747086428, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 3, 'value': 0.8624376815934284} -> {'id': '3', 'value': 0.8624376815934284, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 6, 'value': 0.7768899774712752} -> {'id': '6', 'value': 0.7768899774712752, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 4, 'value': 0.043240195582706975} -> {'id': '4', 'value': 0.043240195582706975, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 10, 'value': 0.8066663784932775} -> {'id': '10', 'value': 0.8066663784932775, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 5, 'value': 0.7418700289500055} -> {'id': '5', 'value': 0.7418700289500055, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 5, 'value': 0.35544849259991185} -> {'id': '5', 'value': 0.35544849259991185, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 3, 'value': 0.46482568368956956} -> {'id': '3', 'value': 0.46482568368956956, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.02572415522613669} -> {'id': '8', 'value': 0.02572415522613669, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 4, 'value': 0.4004028720973817} -> {'id': '4', 'value': 0.4004028720973817, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 1, 'value': 0.6468072667590873} -> {'id': '1', 'value': 0.6468072667590873, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 6, 'value': 0.8790091481944337} -> {'id': '6', 'value': 0.8790091481944337, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 1, 'value': 0.10807526763819486} -> {'id': '1', 'value': 0.10807526763819486, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 16, 'value': 0.3370976180122547} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 6, 'value': 0.9905476924171633} -> {'id': '6', 'value': 0.9905476924171633, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:56 [INFO] Join hit (disk): {'id': 2, 'value': 0.15790879870152108} -> {'id': '2', 'value': 0.15790879870152108, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 2, 'value': 0.10694051540063665} -> {'id': '2', 'value': 0.10694051540063665, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.8622172843326038} -> {'id': '8', 'value': 0.8622172843326038, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:56 [INFO] Join miss (disk): {'id': 18, 'value': 0.3343926791864926} -> BRAK DOPASOWANIA
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 4, 'value': 0.5326801336621839} -> {'id': '4', 'value': 0.5326801336621839, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 6, 'value': 0.8938681283240236} -> {'id': '6', 'value': 0.8938681283240236, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 2, 'value': 0.8664533071843383} -> {'id': '2', 'value': 0.8664533071843383, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 10, 'value': 0.42499134456441245} -> {'id': '10', 'value': 0.42499134456441245, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 4, 'value': 0.26946206989311317} -> {'id': '4', 'value': 0.26946206989311317, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 3, 'value': 0.11285179253125832} -> {'id': '3', 'value': 0.11285179253125832, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 1, 'value': 0.7486601113008345} -> {'id': '1', 'value': 0.7486601113008345, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:56 [INFO] Join hit (cache): {'id': 8, 'value': 0.35314219271372294} -> {'id': '8', 'value': 0.35314219271372294, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 9, 'value': 0.7071745070324963} -> {'id': '9', 'value': 0.7071745070324963, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 5, 'value': 0.7293543514808178} -> {'id': '5', 'value': 0.7293543514808178, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 7, 'value': 0.31999129989166963} -> {'id': '7', 'value': 0.31999129989166963, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.004412593191713832} -> {'id': '5', 'value': 0.004412593191713832, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 7, 'value': 0.4112423655046733} -> {'id': '7', 'value': 0.4112423655046733, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 7, 'value': 0.5936072749223245} -> {'id': '7', 'value': 0.5936072749223245, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 9, 'value': 0.6631360145819468} -> {'id': '9', 'value': 0.6631360145819468, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 4, 'value': 0.40506602391146296} -> {'id': '4', 'value': 0.40506602391146296, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 1, 'value': 0.4099181264627556} -> {'id': '1', 'value': 0.4099181264627556, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.08228511369267355} -> {'id': '5', 'value': 0.08228511369267355, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 3, 'value': 0.7018501085120361} -> {'id': '3', 'value': 0.7018501085120361, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 13, 'value': 0.8822785970602492} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 9, 'value': 0.18004926059642723} -> {'id': '9', 'value': 0.18004926059642723, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 3, 'value': 0.9126928785691574} -> {'id': '3', 'value': 0.9126928785691574, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 10, 'value': 0.20857419867078342} -> {'id': '10', 'value': 0.20857419867078342, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 9, 'value': 0.1115201106412137} -> {'id': '9', 'value': 0.1115201106412137, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 6, 'value': 0.3082962948966631} -> {'id': '6', 'value': 0.3082962948966631, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 13, 'value': 0.008493103725405238} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 2, 'value': 0.645046180812153} -> {'id': '2', 'value': 0.645046180812153, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 12, 'value': 0.7282466946488736} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 12, 'value': 0.8219257109987738} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 10, 'value': 0.6972108613997786} -> {'id': '10', 'value': 0.6972108613997786, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 4, 'value': 0.40330249735940493} -> {'id': '4', 'value': 0.40330249735940493, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 1, 'value': 0.3699945996880134} -> {'id': '1', 'value': 0.3699945996880134, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 15, 'value': 0.6454135170438091} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 5, 'value': 0.6465405412261279} -> {'id': '5', 'value': 0.6465405412261279, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 6, 'value': 0.7911072067664406} -> {'id': '6', 'value': 0.7911072067664406, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 6, 'value': 0.6049073362472187} -> {'id': '6', 'value': 0.6049073362472187, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 2, 'value': 0.31489031486396013} -> {'id': '2', 'value': 0.31489031486396013, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 6, 'value': 0.8043220217605347} -> {'id': '6', 'value': 0.8043220217605347, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 14, 'value': 0.7945006519036787} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 2, 'value': 0.9514768985753793} -> {'id': '2', 'value': 0.9514768985753793, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.8181246056367316} -> {'id': '5', 'value': 0.8181246056367316, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 8, 'value': 0.5722763403936105} -> {'id': '8', 'value': 0.5722763403936105, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 4, 'value': 0.8131382239060156} -> {'id': '4', 'value': 0.8131382239060156, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 1, 'value': 0.7697809555098466} -> {'id': '1', 'value': 0.7697809555098466, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.46420089185851376} -> {'id': '5', 'value': 0.46420089185851376, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.6375431085629647} -> {'id': '5', 'value': 0.6375431085629647, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 9, 'value': 0.4250460664203526} -> {'id': '9', 'value': 0.4250460664203526, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 7, 'value': 0.1392353274595115} -> {'id': '7', 'value': 0.1392353274595115, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 4, 'value': 0.02559835177361358} -> {'id': '4', 'value': 0.02559835177361358, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 3, 'value': 0.2859634060838724} -> {'id': '3', 'value': 0.2859634060838724, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.596567481179493} -> {'id': '5', 'value': 0.596567481179493, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 6, 'value': 0.809247986697943} -> {'id': '6', 'value': 0.809247986697943, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 10, 'value': 0.8980538698125966} -> {'id': '10', 'value': 0.8980538698125966, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 17, 'value': 0.360568392953977} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join miss (disk): {'id': 19, 'value': 0.36866116800681914} -> BRAK DOPASOWANIA
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 5, 'value': 0.6414985949455853} -> {'id': '5', 'value': 0.6414985949455853, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:57 [INFO] Join hit (disk): {'id': 2, 'value': 0.8074922067519051} -> {'id': '2', 'value': 0.8074922067519051, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:57 [INFO] Join hit (cache): {'id': 4, 'value': 0.561200124802208} -> {'id': '4', 'value': 0.561200124802208, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 1, 'value': 0.8865276417760434} -> {'id': '1', 'value': 0.8865276417760434, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 6, 'value': 0.5789557990259202} -> {'id': '6', 'value': 0.5789557990259202, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 9, 'value': 0.38218536357159005} -> {'id': '9', 'value': 0.38218536357159005, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 6, 'value': 0.4203152123240216} -> {'id': '6', 'value': 0.4203152123240216, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 1, 'value': 0.1382534932775007} -> {'id': '1', 'value': 0.1382534932775007, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 14, 'value': 0.34297477044167757} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 1, 'value': 0.2156349983258461} -> {'id': '1', 'value': 0.2156349983258461, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 5, 'value': 0.3158353419697908} -> {'id': '5', 'value': 0.3158353419697908, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 7, 'value': 0.3491625645788806} -> {'id': '7', 'value': 0.3491625645788806, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 2, 'value': 0.3495737744796924} -> {'id': '2', 'value': 0.3495737744796924, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 1, 'value': 0.6480096430464259} -> {'id': '1', 'value': 0.6480096430464259, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 3, 'value': 0.8944882186309351} -> {'id': '3', 'value': 0.8944882186309351, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 7, 'value': 0.5904884447356383} -> {'id': '7', 'value': 0.5904884447356383, 'name': 'Grace', 'age': '22'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 20, 'value': 0.5419108481442304} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 18, 'value': 0.9991963750063503} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 9, 'value': 0.7172553141891328} -> {'id': '9', 'value': 0.7172553141891328, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 10, 'value': 0.863959379657347} -> {'id': '10', 'value': 0.863959379657347, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 10, 'value': 0.20087573489056465} -> {'id': '10', 'value': 0.20087573489056465, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 2, 'value': 0.18534136411154845} -> {'id': '2', 'value': 0.18534136411154845, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 18, 'value': 0.13979470935291083} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 8, 'value': 0.32542776967166576} -> {'id': '8', 'value': 0.32542776967166576, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 9, 'value': 0.2802543524516472} -> {'id': '9', 'value': 0.2802543524516472, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 6, 'value': 0.2858399490584842} -> {'id': '6', 'value': 0.2858399490584842, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 12, 'value': 0.8997727027315415} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (disk): {'id': 4, 'value': 0.3755441824773176} -> {'id': '4', 'value': 0.3755441824773176, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 8, 'value': 0.24853817468630635} -> {'id': '8', 'value': 0.24853817468630635, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 10, 'value': 0.7507170951683398} -> {'id': '10', 'value': 0.7507170951683398, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 8, 'value': 0.66962840008109} -> {'id': '8', 'value': 0.66962840008109, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 2, 'value': 0.6325553516715727} -> {'id': '2', 'value': 0.6325553516715727, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 4, 'value': 0.6318102655092004} -> {'id': '4', 'value': 0.6318102655092004, 'name': 'Diana', 'age': '35'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 14, 'value': 0.4508090208229222} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 2, 'value': 0.42780095960887754} -> {'id': '2', 'value': 0.42780095960887754, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 8, 'value': 0.2097671377922935} -> {'id': '8', 'value': 0.2097671377922935, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 6, 'value': 0.9910348297078665} -> {'id': '6', 'value': 0.9910348297078665, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 14, 'value': 0.4869088711800532} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 2, 'value': 0.12102092740585635} -> {'id': '2', 'value': 0.12102092740585635, 'name': 'Bob', 'age': '25'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 6, 'value': 0.1813474882051509} -> {'id': '6', 'value': 0.1813474882051509, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 10, 'value': 0.7213322803763986} -> {'id': '10', 'value': 0.7213322803763986, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 10, 'value': 0.8326924674679023} -> {'id': '10', 'value': 0.8326924674679023, 'name': 'Judy', 'age': '45'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 19, 'value': 0.2860067334977401} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 13, 'value': 0.916228746010232} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 11, 'value': 0.9344592675324059} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 6, 'value': 0.41214259241778983} -> {'id': '6', 'value': 0.41214259241778983, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 8, 'value': 0.91917971815615} -> {'id': '8', 'value': 0.91917971815615, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:58 [INFO] Join miss (disk): {'id': 16, 'value': 0.747924213415614} -> BRAK DOPASOWANIA
+2025-05-13 21:21:58 [INFO] Join hit (cache): {'id': 8, 'value': 0.5886212852031526} -> {'id': '8', 'value': 0.5886212852031526, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:59 [INFO] Join hit (disk): {'id': 9, 'value': 0.8156853349928307} -> {'id': '9', 'value': 0.8156853349928307, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:59 [INFO] Join miss (disk): {'id': 17, 'value': 0.5194978691467201} -> BRAK DOPASOWANIA
+2025-05-13 21:21:59 [INFO] Join hit (disk): {'id': 3, 'value': 0.529656206700781} -> {'id': '3', 'value': 0.529656206700781, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:59 [INFO] Join hit (disk): {'id': 5, 'value': 0.042602427790335184} -> {'id': '5', 'value': 0.042602427790335184, 'name': 'Eve', 'age': '28'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 3, 'value': 0.021907368249725945} -> {'id': '3', 'value': 0.021907368249725945, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 6, 'value': 0.037819348083673376} -> {'id': '6', 'value': 0.037819348083673376, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:59 [INFO] Join hit (disk): {'id': 1, 'value': 0.21248006509420025} -> {'id': '1', 'value': 0.21248006509420025, 'name': 'Alice', 'age': '30'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 6, 'value': 0.8577546701652836} -> {'id': '6', 'value': 0.8577546701652836, 'name': 'Frank', 'age': '50'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 3, 'value': 0.09620694473157743} -> {'id': '3', 'value': 0.09620694473157743, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 3, 'value': 0.4827980347704961} -> {'id': '3', 'value': 0.4827980347704961, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 8, 'value': 0.819901767959104} -> {'id': '8', 'value': 0.819901767959104, 'name': 'Heidi', 'age': '31'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 9, 'value': 0.6315366186909869} -> {'id': '9', 'value': 0.6315366186909869, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:59 [INFO] Join miss (disk): {'id': 13, 'value': 0.25025977131359367} -> BRAK DOPASOWANIA
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 3, 'value': 0.48323518775970864} -> {'id': '3', 'value': 0.48323518775970864, 'name': 'Charlie', 'age': '40'}
+2025-05-13 21:21:59 [INFO] Join hit (cache): {'id': 9, 'value': 0.8937780428635548} -> {'id': '9', 'value': 0.8937780428635548, 'name': 'Ivan', 'age': '29'}
+2025-05-13 21:21:59 [INFO] Joiner: otrzymano sygna� zako�czenia. Ko�cz� dzia�anie.
+2025-05-13 21:21:59 [INFO] Zako�czono dzia�anie.

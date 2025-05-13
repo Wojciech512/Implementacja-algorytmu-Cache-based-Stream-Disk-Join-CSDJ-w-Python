@@ -43,12 +43,12 @@ if __name__ == "__main__":
 
     # Inicjalizacja obiektów
     disk = DiskData(str(data_path), delay=0.05)  # 50 ms opóźnienia dysku
-    cache = LRUCache(capacity=5)  # pojemność cache np. 5 rekordów
+    cache = LRUCache(capacity=2)  # pojemność cache np. 5 rekordów
 
     # Utworzenie kolejki i wątków
     stream_queue = __import__("queue").Queue()
     generator = StreamGenerator(
-        output_queue=stream_queue, event_count=100, interval=0.1
+        output_queue=stream_queue, event_count=500, interval=0.05
     )
     joiner = StreamDiskJoiner(input_queue=stream_queue, cache=cache, disk=disk)
 
