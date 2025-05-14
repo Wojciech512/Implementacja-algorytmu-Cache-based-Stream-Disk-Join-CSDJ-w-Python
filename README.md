@@ -14,3 +14,27 @@ Struktura projektu
 - main.py – główny plik uruchamiający, który tworzy obiekty powyższych klas, uruchamia wątki i koordynuje cały proces.
 - data/ – katalog z danymi; np. plik reference.csv zawierający dane referencyjne (dyskowe).
 - logs/ – katalog na logi działania programu (np. plik log zawierający informacje o przetwarzaniu i cache).
+
+## Uruchomienie
+
+Aby uruchomić projekt, wystarczy wywołać plik main.py. Program automatycznie utworzy potrzebne katalogi (data/, logs/) oraz plik reference.csv z danymi referencyjnymi, jeśli ten nie istnieje. Wyniki działania zostaną zapisane w pliku logów w katalogu logs/. Program można uruchomić bezpośrednio w środowisku PyCharm (konfiguracja: Pure Python, interpreter: venv) lub z terminala:
+
+```
+python main.py
+```
+
+## Parametry konfiguracyjne
+
+Wyniki działania algorytmu można modyfikować poprzez zmianę poniższych parametrów w pliku main.py (w funkcji **main**):
+
+- event_count (w StreamGenerator) – liczba wygenerowanych zdarzeń (np. 100, 500, 1000). Wpływa na długość strumienia i czas działania testu.
+
+- interval – odstęp czasu (w sekundach) między kolejnymi zdarzeniami (np. 0.1, 0.05, 0.01). Pozwala symulować różne natężenie strumienia.
+
+- skew_prob – prawdopodobieństwo wystąpienia klucza z zakresu „gorącego” (częstego), np. 0.8. Wyższe wartości oznaczają bardziej skupiony rozkład.
+
+- capacity (w LRUCache) – maksymalna liczba rekordów przetrzymywanych w cache. Im większa, tym mniejsze ryzyko usunięcia często używanych rekordów.
+
+- Rozmiar pliku reference.csv (w data/) – można ręcznie rozszerzyć lub ograniczyć liczbę rekordów referencyjnych (np. 10, 50, 100). Wpływa to na to, czy wszystkie klucze strumienia mają swoje odpowiedniki na „dysku”.
+
+Zmieniając te parametry, możliwe jest przeprowadzenie testów w różnych warunkach (mała lub duża pamięć, szybki lub wolny strumień, skośny lub równomierny rozkład), co umożliwia analizę wpływu konfiguracji na skuteczność pamięci podręcznej i liczbę operacji dyskowych.
